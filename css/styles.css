@@ -1,0 +1,13 @@
+header {
+  background-color: #50c5b7;
+}
+
+.contact p,
+.previous-employment h3 {
+  display: inline-block;
+}
+
+.previous-employment {
+  display: flex;
+  justify-content: space-between;
+}
