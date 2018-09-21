@@ -1,10 +1,47 @@
-header {
-  background-color: #50c5b7;
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2 {
+  color: #97ce8a;
+  font-weight: bold;
+}
+
+.main-info {
+  background-color: #97ce8a;
+  font-family:'Amatic SC', cursive;
+  padding: 15px;
+}
+
+.right-col,
+.left-col {
+  margin-top: 40px;
+}
+
+.name {
+  font-size: 2em;
+}
+
+hr {
+  background-color: #97ce8a;
+  border: none;
+  height: 3px;
+  margin-bottom: 5px;
+  width: 100%;
 }
 
 .contact p,
 .previous-employment h3 {
   display: inline-block;
+}
+
+img {
+  padding-right: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .previous-employment {
